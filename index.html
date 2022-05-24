@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- swiper -->
+
+    <link rel="stylesheet" href="./assets/css//style.css?v=12">
+    <link rel="stylesheet" href="./assets/css/animation.css?v=13">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__block container">
+            <a href="/" class="header__logo-link">
+                <img class="header__logo" src="./assets/icons/logo.svg" alt="">
+            </a>
+            <nav class="header__menu">
+                <a class="header__menu__item" href="#">
+                    Напрямки
+                </a>
+                <a class="header__menu__item" href="#">
+                    Про компанiю
+                </a>
+                <a class="header__menu__item" href="#">
+                    Переваги
+                </a>
+                <a class="header__menu__item" href="#">
+                    Етапи роботи
+                </a>
+            </nav>
+            <div class="header__soc-media">
+                <a href="#" class="header__soc-media__item link-svg" title="instagram">
+                    <svg viewBox="0 0 24 24" fill="#AE7B3C" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.9469 8.305C20.9369 7.54762 20.7951 6.79777 20.5279 6.089C20.2963 5.49115 19.9425 4.9482 19.4891 4.49483C19.0358 4.04146 18.4928 3.68765 17.8949 3.456C17.1953 3.19336 16.4561 3.05134 15.7089 3.036C14.7469 2.993 14.4419 2.981 11.9999 2.981C9.55795 2.981 9.24495 2.981 8.28995 3.036C7.54311 3.05145 6.8043 3.19347 6.10495 3.456C5.50701 3.68749 4.96397 4.04124 4.51058 4.49463C4.05719 4.94802 3.70344 5.49106 3.47195 6.089C3.20878 6.78813 3.06707 7.52711 3.05295 8.274C3.00995 9.237 2.99695 9.542 2.99695 11.984C2.99695 14.426 2.99695 14.738 3.05295 15.694C3.06795 16.442 3.20895 17.18 3.47195 17.881C3.70383 18.4788 4.05784 19.0216 4.51138 19.4748C4.96492 19.928 5.50801 20.2816 6.10595 20.513C6.80338 20.7862 7.54232 20.9384 8.29095 20.963C9.25395 21.006 9.55895 21.019 12.0009 21.019C14.4429 21.019 14.7559 21.019 15.7109 20.963C16.4581 20.9483 17.1973 20.8066 17.8969 20.544C18.4946 20.3121 19.0375 19.9582 19.4908 19.5048C19.9441 19.0515 20.298 18.5087 20.5299 17.911C20.7929 17.211 20.9339 16.473 20.9489 15.724C20.9919 14.762 21.0049 14.457 21.0049 12.014C21.0029 9.572 21.0029 9.262 20.9469 8.305ZM11.9939 16.602C9.43995 16.602 7.37095 14.533 7.37095 11.979C7.37095 9.425 9.43995 7.356 11.9939 7.356C13.22 7.356 14.3959 7.84306 15.2629 8.71004C16.1299 9.57703 16.6169 10.7529 16.6169 11.979C16.6169 13.2051 16.1299 14.381 15.2629 15.248C14.3959 16.1149 13.22 16.602 11.9939 16.602ZM16.8009 8.263C16.6593 8.26313 16.5191 8.23534 16.3883 8.18121C16.2574 8.12708 16.1385 8.04768 16.0384 7.94755C15.9383 7.84743 15.8589 7.72854 15.8047 7.59769C15.7506 7.46684 15.7228 7.3266 15.7229 7.185C15.7229 7.0435 15.7508 6.90339 15.805 6.77266C15.8591 6.64193 15.9385 6.52315 16.0385 6.42309C16.1386 6.32304 16.2574 6.24367 16.3881 6.18952C16.5188 6.13537 16.6589 6.1075 16.8004 6.1075C16.9419 6.1075 17.0821 6.13537 17.2128 6.18952C17.3435 6.24367 17.4623 6.32304 17.5624 6.42309C17.6624 6.52315 17.7418 6.64193 17.7959 6.77266C17.8501 6.90339 17.8779 7.0435 17.8779 7.185C17.8779 7.781 17.3959 8.263 16.8009 8.263Z"/>
+                        <path d="M11.994 14.982C13.6525 14.982 14.997 13.6375 14.997 11.979C14.997 10.3205 13.6525 8.976 11.994 8.976C10.3355 8.976 8.99097 10.3205 8.99097 11.979C8.99097 13.6375 10.3355 14.982 11.994 14.982Z"/>
+                    </svg>
+                </a>
+                <a href="#" class="header__soc-media__item link-svg" title="facebook">
+                    <svg viewBox="0 0 10 21" fill="#AE7B3C" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.55277 20.5746V10.9204H0V7.44441H2.55277V4.47548C2.55277 2.14247 4.0607 0 7.53529 0C8.9421 0 9.98237 0.134866 9.98237 0.134866L9.9004 3.38083C9.9004 3.38083 8.83949 3.3705 7.68178 3.3705C6.42879 3.3705 6.22804 3.94793 6.22804 4.90631V7.44441H10L9.83588 10.9204H6.22804V20.5746H2.55277Z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <a class="header__tel link-svg-brown" href="tel:+380676615415">
+                <svg viewBox="0 0 22 22" fill="#3D4A39" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.6667 0.916668H7.33337C5.81629 0.916668 4.58337 2.14958 4.58337 3.66667V18.3333C4.58337 19.8504 5.81629 21.0833 7.33337 21.0833H14.6667C16.1838 21.0833 17.4167 19.8504 17.4167 18.3333V3.66667C17.4167 2.14958 16.1838 0.916668 14.6667 0.916668ZM12.8334 19.25H9.16671V18.3333H12.8334V19.25ZM15.8125 16.5H6.18754V3.66667H15.8125V16.5Z"/>                    
+                </svg> +380 67661 5415
+            </a>
+            <button class="header__mob-menu btn js--menu-btn">
+                <span class="header__mob-menu__span"></span>
+            </button>
+        </div>
+        <div class="header-menu-mob js--header-menu-mob">
+            <nav class="header-menu-mob__menu">
+                <a class="header-menu-mob__menu__item" href="#">
+                    Напрямки
+                </a>
+                <a class="header-menu-mob__menu__item" href="#">
+                    Про компанiю
+                </a>
+                <a class="header-menu-mob__menu__item" href="#">
+                    Переваги
+                </a>
+                <a class="header-menu-mob__menu__item" href="#">
+                    Етапи роботи
+                </a>
+            </nav>
+            <div class="header-menu-mob__soc-media">
+                <a href="#" class="header-menu-mob__soc-media__item link-svg" title="instagram">
+                    <svg viewBox="0 0 24 24" fill="#AE7B3C" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.9469 8.305C20.9369 7.54762 20.7951 6.79777 20.5279 6.089C20.2963 5.49115 19.9425 4.9482 19.4891 4.49483C19.0358 4.04146 18.4928 3.68765 17.8949 3.456C17.1953 3.19336 16.4561 3.05134 15.7089 3.036C14.7469 2.993 14.4419 2.981 11.9999 2.981C9.55795 2.981 9.24495 2.981 8.28995 3.036C7.54311 3.05145 6.8043 3.19347 6.10495 3.456C5.50701 3.68749 4.96397 4.04124 4.51058 4.49463C4.05719 4.94802 3.70344 5.49106 3.47195 6.089C3.20878 6.78813 3.06707 7.52711 3.05295 8.274C3.00995 9.237 2.99695 9.542 2.99695 11.984C2.99695 14.426 2.99695 14.738 3.05295 15.694C3.06795 16.442 3.20895 17.18 3.47195 17.881C3.70383 18.4788 4.05784 19.0216 4.51138 19.4748C4.96492 19.928 5.50801 20.2816 6.10595 20.513C6.80338 20.7862 7.54232 20.9384 8.29095 20.963C9.25395 21.006 9.55895 21.019 12.0009 21.019C14.4429 21.019 14.7559 21.019 15.7109 20.963C16.4581 20.9483 17.1973 20.8066 17.8969 20.544C18.4946 20.3121 19.0375 19.9582 19.4908 19.5048C19.9441 19.0515 20.298 18.5087 20.5299 17.911C20.7929 17.211 20.9339 16.473 20.9489 15.724C20.9919 14.762 21.0049 14.457 21.0049 12.014C21.0029 9.572 21.0029 9.262 20.9469 8.305ZM11.9939 16.602C9.43995 16.602 7.37095 14.533 7.37095 11.979C7.37095 9.425 9.43995 7.356 11.9939 7.356C13.22 7.356 14.3959 7.84306 15.2629 8.71004C16.1299 9.57703 16.6169 10.7529 16.6169 11.979C16.6169 13.2051 16.1299 14.381 15.2629 15.248C14.3959 16.1149 13.22 16.602 11.9939 16.602ZM16.8009 8.263C16.6593 8.26313 16.5191 8.23534 16.3883 8.18121C16.2574 8.12708 16.1385 8.04768 16.0384 7.94755C15.9383 7.84743 15.8589 7.72854 15.8047 7.59769C15.7506 7.46684 15.7228 7.3266 15.7229 7.185C15.7229 7.0435 15.7508 6.90339 15.805 6.77266C15.8591 6.64193 15.9385 6.52315 16.0385 6.42309C16.1386 6.32304 16.2574 6.24367 16.3881 6.18952C16.5188 6.13537 16.6589 6.1075 16.8004 6.1075C16.9419 6.1075 17.0821 6.13537 17.2128 6.18952C17.3435 6.24367 17.4623 6.32304 17.5624 6.42309C17.6624 6.52315 17.7418 6.64193 17.7959 6.77266C17.8501 6.90339 17.8779 7.0435 17.8779 7.185C17.8779 7.781 17.3959 8.263 16.8009 8.263Z"/>
+                        <path d="M11.994 14.982C13.6525 14.982 14.997 13.6375 14.997 11.979C14.997 10.3205 13.6525 8.976 11.994 8.976C10.3355 8.976 8.99097 10.3205 8.99097 11.979C8.99097 13.6375 10.3355 14.982 11.994 14.982Z"/>
+                    </svg>
+                </a>
+                <a href="#" class="header-menu-mob__soc-media__item link-svg" title="facebook">
+                    <svg viewBox="0 0 10 21" fill="#AE7B3C" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.55277 20.5746V10.9204H0V7.44441H2.55277V4.47548C2.55277 2.14247 4.0607 0 7.53529 0C8.9421 0 9.98237 0.134866 9.98237 0.134866L9.9004 3.38083C9.9004 3.38083 8.83949 3.3705 7.68178 3.3705C6.42879 3.3705 6.22804 3.94793 6.22804 4.90631V7.44441H10L9.83588 10.9204H6.22804V20.5746H2.55277Z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <a class="header-menu-mob__tel link-svg-brown" href="tel:+380676615415">
+                <svg viewBox="0 0 22 22" fill="#3D4A39" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.6667 0.916668H7.33337C5.81629 0.916668 4.58337 2.14958 4.58337 3.66667V18.3333C4.58337 19.8504 5.81629 21.0833 7.33337 21.0833H14.6667C16.1838 21.0833 17.4167 19.8504 17.4167 18.3333V3.66667C17.4167 2.14958 16.1838 0.916668 14.6667 0.916668ZM12.8334 19.25H9.16671V18.3333H12.8334V19.25ZM15.8125 16.5H6.18754V3.66667H15.8125V16.5Z"/>                    
+                </svg> +380 67661 5415
+            </a>
+            <a class="header-menu-mob__link btn btn-brown" href="#">Обговорити проект</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+
+            <div class="hero__bg swiper js--hero-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url(./assets/img/hero.png);"></div>
+                    <div class="swiper-slide" style="background-image: url(./assets/img/hero.png);"></div>
+                    <div class="swiper-slide" style="background-image: url(./assets/img/hero.png);"></div>
+                    <div class="swiper-slide" style="background-image: url(./assets/img/hero.png);"></div>
+                </div>
+            </div>
+            <div class="hero__container container">
+
+                <div class="hero__container__slider swiper js--hero-content-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <h1 class="hero__container__slider__title">
+                                <span class="animation-text-block"> 
+                                    <span class="animation-text-block__text">виробництво</span>
+                                </span>
+                                <span class="animation-text-block"> 
+                                    <span class="animation-text-block__text-2">меблів</span>
+                                </span>
+                            </h1>
+                            <p class="hero__container__slider__text">Ми виконуємо комплексне виготовлення корпусних меблів для житлових і комерційних приміщень, забезпечимо Вас якісним меблевим продуктом власного виробництва. </p>
+                            <a href="#" class="hero__container__slider__btn btn btn-brown">
+                                Обговорити проект
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <h1 class="hero__container__slider__title">
+                                <span class="animation-text-block"> 
+                                    <span class="animation-text-block__text">виробництво</span>
+                                </span>
+                                <span class="animation-text-block"> 
+                                    <span class="animation-text-block__text-2">меблів</span>
+                                </span>
+                            </h1>
+                            <p class="hero__container__slider__text">Ми виконуємо комплексне виготовлення корпусних меблів для житлових і комерційних приміщень, забезпечимо Вас якісним меблевим продуктом власного виробництва. </p>
+                            <a href="#" class="hero__container__slider__btn btn btn-brown">
+                                Обговорити проект
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <h1 class="hero__container__slider__title">
+                                <span class="animation-text-block"> 
+                                    <span class="animation-text-block__text">виробництво</span>
+                                </span>
+                                <span class="animation-text-block"> 
+                                    <span class="animation-text-block__text-2">меблів</span>
+                                </span>
+                            </h1>
+                            <p class="hero__container__slider__text">Ми виконуємо комплексне виготовлення корпусних меблів для житлових і комерційних приміщень, забезпечимо Вас якісним меблевим продуктом власного виробництва. </p>
+                            <a href="#" class="hero__container__slider__btn btn btn-brown">
+                                Обговорити проект
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <h1 class="hero__container__slider__title">
+                                <span class="animation-text-block"> 
+                                    <span class="animation-text-block__text">виробництво</span>
+                                </span>
+                                <span class="animation-text-block"> 
+                                    <span class="animation-text-block__text-2">меблів</span>
+                                </span>
+                            </h1>
+                            <p class="hero__container__slider__text">Ми виконуємо комплексне виготовлення корпусних меблів для житлових і комерційних приміщень, забезпечимо Вас якісним меблевим продуктом власного виробництва. </p>
+                            <a href="#" class="hero__container__slider__btn btn btn-brown">
+                                Обговорити проект
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero__container__slider-bottom">
+                    <div class="hero__container__slider-bottom__navigation">
+                        <button class="hero__container__slider-bottom__navigation__btn btn js--hero-navigation-prev">
+                            <svg width="21" height="16" viewBox="0 0 21 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0.292893 7.29289C-0.0976314 7.68342 -0.0976315 8.31658 0.292892 8.7071L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34314C8.46159 1.95262 8.46159 1.31946 8.07107 0.928931C7.68054 0.538407 7.04738 0.538407 6.65686 0.928931L0.292893 7.29289ZM21 7L1 7L1 9L21 9L21 7Z" />
+                            </svg>
+                        </button>
+                        <button class="hero__container__slider-bottom__navigation__btn btn js--hero-navigation-next">
+                            <svg width="21" height="16" viewBox="0 0 21 16" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.7071 8.70711C21.0976 8.31658 21.0976 7.68342 20.7071 7.29289L14.3431 0.928932C13.9526 0.538408 13.3195 0.538408 12.9289 0.928932C12.5384 1.31946 12.5384 1.95262 12.9289 2.34315L18.5858 8L12.9289 13.6569C12.5384 14.0474 12.5384 14.6805 12.9289 15.0711C13.3195 15.4616 13.9526 15.4616 14.3431 15.0711L20.7071 8.70711ZM0 9H20V7H0V9Z"/>
+                            </svg>                                
+                        </button>
+                    </div>
+                    <div class="hero__container__slider-bottom__point js--hero-points">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lines section-m-140">
+            <div class="container">
+                <h2 class="lines_title">
+                    Основні напрямки
+                </h2>
+                <div class="lines__lists">
+                    <a class="lines__link" href="">
+                        <span class="lines__link__number">01</span>
+                        <h5 class="lines__link__title">Дизайн інтерʼєру</h5>
+                        <img class="lines__link__img" src="./assets/img/lines_1.png" alt="Дизайн інтерʼєру">
+                    </a>
+                    <a class="lines__link" href="">
+                        <span class="lines__link__number">02</span>
+                        <h5 class="lines__link__title">Виробництво меблів</h5>
+                        <img class="lines__link__img" src="./assets/img/lines_2.png" alt="Виробництво меблів">
+                    </a>
+                    <a class="lines__link" href="">
+                        <span class="lines__link__number">03</span>
+                        <h5 class="lines__link__title">Комплексне меблювання</h5>
+                        <img class="lines__link__img" src="./assets/img/lines_3.png" alt="Комплексне меблювання">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="wedo bgc-green">
+            <div class="wedo__block container">
+                <h2 class="wedo__title">
+                    Ми забезпечимо вас
+                </h2>
+                <ul class="wedo__list clear-list">
+                    <li class="wedo__point">
+                        <img class="wedo__point__img" src="./assets/icons/wedo/wardrobe.png" alt="Меблями">
+                        <h5 class="wedo__point__title">Меблями</h5>
+                    </li>
+                    <li class="wedo__point">
+                        <img class="wedo__point__img" src="./assets/icons/wedo/light.svg" alt="Освітленням">
+                        <h5 class="wedo__point__title">Освітленням</h5>
+                    </li>
+                    <li class="wedo__point">
+                        <img class="wedo__point__img" src="./assets/icons/wedo/oven.svg" alt="Побутовою технікою">
+                        <h5 class="wedo__point__title">Побутовою технікою</h5>
+                    </li>
+                    <li class="wedo__point">
+                        <img class="wedo__point__img" src="./assets/icons/wedo/door.svg" alt="Дверима">
+                        <h5 class="wedo__point__title">Дверима</h5>
+                    </li>
+                    <li class="wedo__point">
+                        <img class="wedo__point__img" src="./assets/icons/wedo/light-panels.svg" alt="Стіновими панелями та підлоговим покриттям">
+                        <h5 class="wedo__point__title">Стіновими панелями та підлоговим покриттям</h5>
+                    </li>
+                    <li class="wedo__point">
+                        <img class="wedo__point__img" src="./assets/icons/wedo/projecting.svg" alt="Проектуванням">
+                        <h5 class="wedo__point__title">Проектуванням</h5>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="victory section-m-140">
+            <div class="victory__block container">
+                <div class="victory__img animation-block-img to-lr js--animation-img">
+                    <img src="./assets/img/to-lr.png" alt="">
+                </div>
+                <div class="victory__img animation-block-img to-rl js--animation-img">
+                    <img src="./assets/img/to-rl.png" alt="">
+                </div>
+                <h3 class="victory__title">
+                    Проект Рінго Україна - створений виконувати об`єктні задачі комплексного меблювання житлових та комерційних приміщень. 
+                </h3>
+            </div>
+
+            <div class="victory__footer container">
+                <div class="victory__footer__block">
+                    <div class="victory__footer__block__item">
+                        <p class="victory__footer__block__text">
+                            Наш колектив націлений на результат - вчасно реалізувати проект на найвищому рівні. Ми забезпечуємо спокій замовника та вирішуємо будь-які задачі
+                        </p>
+
+                    </div>
+                    <div class="victory__footer__block__item">
+                        <p class="victory__footer__block__text">
+                            Рінго найкращий підрядник прораба, дизайнера, проект-менеджера або персональний помічник власника бізнесу, квартири чи салону
+                        </p>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="we-benefit">
+            <div class="container">
+                <h2 class="we-benefit__title">Наші переваги</h2>
+                <div class="we-benefit__block">
+                    <div class="we-benefit__block__item js--we-benefit-block">
+                        <h5 class="we-benefit__block__item__number">01</h5>
+                        <img class="we-benefit__block__item__img js--we-benefit-img" src="./assets/img/we-benefit.png" alt="benefit">
+                        <div class="we-benefit__block__item__block-text">
+                            <h4 class="we-benefit__block__item__title">Мобільність</h4>
+                            <p class="we-benefit__block__item__text">Проводимо зустрічі на об`єктах в затишних закладах Києва</p>
+                        </div>
+                    </div>
+                    <div class="we-benefit__block__item js--we-benefit-block">
+                        <h5 class="we-benefit__block__item__number">02</h5>
+                        <img class="we-benefit__block__item__img js--we-benefit-img" src="./assets/img/we-benefit.png" alt="benefit">
+                        <div class="we-benefit__block__item__block-text">
+                            <h4 class="we-benefit__block__item__title">Надійність</h4>
+                            <p class="we-benefit__block__item__text">Система нашої роботи зосереджена на якості та термінах завершення проекту</p>
+                        </div>
+                    </div>
+                    <div class="we-benefit__block__item js--we-benefit-block">
+                        <h5 class="we-benefit__block__item__number">03</h5>
+                        <img class="we-benefit__block__item__img js--we-benefit-img" src="./assets/img/we-benefit.png" alt="benefit">
+                        <div class="we-benefit__block__item__block-text">
+                            <h4 class="we-benefit__block__item__title">Якість</h4>
+                            <p class="we-benefit__block__item__text">Виготовляємо виключно з перевірених європейських брендів</p>
+                        </div>
+                    </div>
+                    <div class="we-benefit__block__item js--we-benefit-block">
+                        <h5 class="we-benefit__block__item__number">04</h5>
+                        <img class="we-benefit__block__item__img js--we-benefit-img" src="./assets/img/we-benefit.png" alt="benefit">
+                        <div class="we-benefit__block__item__block-text">
+                            <h4 class="we-benefit__block__item__title">Профессіоналізм</h4>
+                            <p class="we-benefit__block__item__text">Наша команда - це клуб професіоналів, об`єднаних в одній компанії</p>
+                        </div>
+                    </div>
+                    <div class="we-benefit__block__item js--we-benefit-block">
+                        <h5 class="we-benefit__block__item__number">05</h5>
+                        <img class="we-benefit__block__item__img js--we-benefit-img" src="./assets/img/we-benefit.png" alt="benefit">
+                        <div class="we-benefit__block__item__block-text">
+                            <h4 class="we-benefit__block__item__title">Вигідність</h4>
+                            <p class="we-benefit__block__item__text">Ми відмовились від шоу-руму та офісу на користь вартості та мобільності</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__top container">
+            <div class="footer__left">
+                <a href="#">
+                    <img class="footer__logo" src="./assets/icons/logo.svg" alt="logo">
+                </a>
+                <div class="footer__soc-media">
+                    <p class="footer__soc-media__text">Соцмережі:</p>
+                    <a href="#" class="footer__soc-media__item link-svg" title="instagram">
+                        <svg viewBox="0 0 24 24" fill="#AE7B3C" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20.9469 8.305C20.9369 7.54762 20.7951 6.79777 20.5279 6.089C20.2963 5.49115 19.9425 4.9482 19.4891 4.49483C19.0358 4.04146 18.4928 3.68765 17.8949 3.456C17.1953 3.19336 16.4561 3.05134 15.7089 3.036C14.7469 2.993 14.4419 2.981 11.9999 2.981C9.55795 2.981 9.24495 2.981 8.28995 3.036C7.54311 3.05145 6.8043 3.19347 6.10495 3.456C5.50701 3.68749 4.96397 4.04124 4.51058 4.49463C4.05719 4.94802 3.70344 5.49106 3.47195 6.089C3.20878 6.78813 3.06707 7.52711 3.05295 8.274C3.00995 9.237 2.99695 9.542 2.99695 11.984C2.99695 14.426 2.99695 14.738 3.05295 15.694C3.06795 16.442 3.20895 17.18 3.47195 17.881C3.70383 18.4788 4.05784 19.0216 4.51138 19.4748C4.96492 19.928 5.50801 20.2816 6.10595 20.513C6.80338 20.7862 7.54232 20.9384 8.29095 20.963C9.25395 21.006 9.55895 21.019 12.0009 21.019C14.4429 21.019 14.7559 21.019 15.7109 20.963C16.4581 20.9483 17.1973 20.8066 17.8969 20.544C18.4946 20.3121 19.0375 19.9582 19.4908 19.5048C19.9441 19.0515 20.298 18.5087 20.5299 17.911C20.7929 17.211 20.9339 16.473 20.9489 15.724C20.9919 14.762 21.0049 14.457 21.0049 12.014C21.0029 9.572 21.0029 9.262 20.9469 8.305ZM11.9939 16.602C9.43995 16.602 7.37095 14.533 7.37095 11.979C7.37095 9.425 9.43995 7.356 11.9939 7.356C13.22 7.356 14.3959 7.84306 15.2629 8.71004C16.1299 9.57703 16.6169 10.7529 16.6169 11.979C16.6169 13.2051 16.1299 14.381 15.2629 15.248C14.3959 16.1149 13.22 16.602 11.9939 16.602ZM16.8009 8.263C16.6593 8.26313 16.5191 8.23534 16.3883 8.18121C16.2574 8.12708 16.1385 8.04768 16.0384 7.94755C15.9383 7.84743 15.8589 7.72854 15.8047 7.59769C15.7506 7.46684 15.7228 7.3266 15.7229 7.185C15.7229 7.0435 15.7508 6.90339 15.805 6.77266C15.8591 6.64193 15.9385 6.52315 16.0385 6.42309C16.1386 6.32304 16.2574 6.24367 16.3881 6.18952C16.5188 6.13537 16.6589 6.1075 16.8004 6.1075C16.9419 6.1075 17.0821 6.13537 17.2128 6.18952C17.3435 6.24367 17.4623 6.32304 17.5624 6.42309C17.6624 6.52315 17.7418 6.64193 17.7959 6.77266C17.8501 6.90339 17.8779 7.0435 17.8779 7.185C17.8779 7.781 17.3959 8.263 16.8009 8.263Z"/>
+                            <path d="M11.994 14.982C13.6525 14.982 14.997 13.6375 14.997 11.979C14.997 10.3205 13.6525 8.976 11.994 8.976C10.3355 8.976 8.99097 10.3205 8.99097 11.979C8.99097 13.6375 10.3355 14.982 11.994 14.982Z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="footer__soc-media__item link-svg" title="facebook">
+                        <svg viewBox="0 0 10 21" fill="#AE7B3C" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.55277 20.5746V10.9204H0V7.44441H2.55277V4.47548C2.55277 2.14247 4.0607 0 7.53529 0C8.9421 0 9.98237 0.134866 9.98237 0.134866L9.9004 3.38083C9.9004 3.38083 8.83949 3.3705 7.68178 3.3705C6.42879 3.3705 6.22804 3.94793 6.22804 4.90631V7.44441H10L9.83588 10.9204H6.22804V20.5746H2.55277Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <ul class="footer__menu clear-list">
+                <li class="footer__menu__item">
+                    <a class="footer__menu__link" href="#">Основні напрямки</a>
+                </li>
+                <li class="footer__menu__item">
+                    <a class="footer__menu__link" href="#">Етапи роботи</a>
+                </li>
+                <li class="footer__menu__item">
+                    <a class="footer__menu__link" href="#">Про компанію</a>
+                </li>
+                <li class="footer__menu__item">
+                    <a class="footer__menu__link" href="#">Зараз в роботі</a>
+                </li>
+                <li class="footer__menu__item">
+                    <a class="footer__menu__link" href="#">Переваги</a>
+                </li>
+                <li class="footer__menu__item">
+                    <a class="footer__menu__link" href="#">Стати партнером</a>
+                </li>
+            </ul>
+            <div class="footer__contact">
+                <a class="footer__tel link-svg-brown" href="tel:+380676615415">
+                    <svg viewBox="0 0 22 22" fill="#3D4A39" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.6667 0.916668H7.33337C5.81629 0.916668 4.58337 2.14958 4.58337 3.66667V18.3333C4.58337 19.8504 5.81629 21.0833 7.33337 21.0833H14.6667C16.1838 21.0833 17.4167 19.8504 17.4167 18.3333V3.66667C17.4167 2.14958 16.1838 0.916668 14.6667 0.916668ZM12.8334 19.25H9.16671V18.3333H12.8334V19.25ZM15.8125 16.5H6.18754V3.66667H15.8125V16.5Z"/>                    
+                        </svg> +380 67661 5415
+                </a>
+                <a class="footer__link btn btn-brown" href="#">На каву з менеджером!</a>
+            </div>
+        </div>
+        <span class="hr-line-gray"></span>
+        <div class="footer__bottom container">
+            <h5 class="footer__bottom__title">Бренди комплектуючих</h5>
+            <ul class="footer__bottom__list clear-list">
+                <li class="footer__bottom__item">
+                    <a class="footer__bottom__link" href="#">
+                        <img class="footer__bottom__img" src="./assets/img/part1.png" alt="partner_logo">
+                    </a>
+                </li>
+                <li class="footer__bottom__item">
+                    <a class="footer__bottom__link" href="#">
+                        <img class="footer__bottom__img" src="./assets/img/part2.png" alt="partner_logo">
+                    </a>
+                </li>
+                <li class="footer__bottom__item">
+                    <a class="footer__bottom__link" href="#">
+                        <img class="footer__bottom__img" src="./assets/img/part3.png" alt="partner_logo">
+                    </a>
+                </li>
+                <li class="footer__bottom__item">
+                    <a class="footer__bottom__link" href="#">
+                        <img class="footer__bottom__img" src="./assets/img/part4.png" alt="partner_logo">
+                    </a>
+                </li>
+                <li class="footer__bottom__item">
+                    <a class="footer__bottom__link" href="#">
+                        <img class="footer__bottom__img" src="./assets/img/part5.png" alt="partner_logo">
+                    </a>
+                </li>
+                <li class="footer__bottom__item">
+                    <a class="footer__bottom__link" href="#">
+                        <img class="footer__bottom__img" src="./assets/img/part6.png" alt="partner_logo">
+                    </a>
+                </li>
+                <li class="footer__bottom__item">
+                    <a class="footer__bottom__link" href="#">
+                        <img class="footer__bottom__img" src="./assets/img/part7.png" alt="partner_logo">
+                    </a>
+                </li>
+                <li class="footer__bottom__item">
+                    <a class="footer__bottom__link" href="#">
+                        <img class="footer__bottom__img" src="./assets/img/part8.png" alt="partner_logo">
+                    </a>
+                </li>
+                <li class="footer__bottom__item">
+                    <a class="footer__bottom__link" href="#">
+                        <img class="footer__bottom__img" src="./assets/img/part9.png" alt="partner_logo">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__rucaptcha container">
+            <p class="footer__rucaptcha__copyright">&#169; <span class="js--year"></span> Ringo</p>
+        </div>
+    </footer>
+    <script src="./assets/js/index.js" type="module"></script>
+</body>
+
+</html>
